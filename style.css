@@ -1,4 +1,58 @@
+:root {
+    --dark-color: #4D455D;
+    --light-color: #F5E9CF;
+    --color-lightgreen: #dbebeb;
+    --color-lightred: #f5d1d0;
+    --color-red: #E96479;
+    --color-green: #7DB9B6;
+}
+
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+body {
+    background-color: var(--light-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.center-content {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+#trainLogo {
+    color: var(--color-red);
+    font-size: 3rem;
+}
+
+header {
+    background-color: var(--color-lightgreen);
+    padding: 1rem 2rem;
+}
+
+#highlights {
+    background-color: var(--color-lightred);
+    padding: 2rem;
+}
+
+.section1-article {
+    background-color: var(--color-green);
+    padding: 1rem;
+}
+
+#wrapping-gallery {
+    padding: 2rem;
+    background-color: var(--color-lightgreen);
+}
+
+.wrapping-image {
+    filter: grayscale(100);
+    width: 200px;
+    height: 200px;
 }
